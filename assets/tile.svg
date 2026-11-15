@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="192" height="192">
+  <!-- WinFace sign-in icon: minimal Face ID-style glyph (same design as bench/make_tile.py) -->
+  <rect x="40" y="40" width="944" height="944" rx="220" fill="#18181C"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="58" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M237 212 H307" /><path d="M307 212 A95 95 0 0 0 212 307" /><path d="M212 307 V237" />
+    <path d="M787 212 H717" /><path d="M717 212 A95 95 0 0 1 812 307" /><path d="M812 307 V237" />
+    <path d="M787 812 H717" /><path d="M717 812 A95 95 0 0 0 812 717" /><path d="M812 717 V787" />
+    <path d="M237 812 H307" /><path d="M307 812 A95 95 0 0 1 212 717" /><path d="M212 717 V787" />
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="50" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M407 402 V467" /><path d="M617 402 V467" />
+    <path d="M520 402 V552 H482" />
+    <path d="M427 612 Q512 680 597 612" />
+  </g>
+</svg>

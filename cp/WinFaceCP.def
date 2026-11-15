@@ -1,0 +1,4 @@
+LIBRARY WinFaceCP
+EXPORTS
+    DllCanUnloadNow     PRIVATE
+    DllGetClassObject   PRIVATE

@@ -1,0 +1,45 @@
+# --- PRIVATE: never commit ---------------------------------------------------
+# face data, logs and camera captures from the Python bench
+bench/data/
+bench/logs/
+bench/shots/
+*.npz
+*.npy
+# secrets / runtime data (normally only in C:\ProgramData\WinFace, listed here as a safety net)
+*.tpm
+*.dpapi
+log.txt
+profiles.bin
+templates.bin
+# datasets and test vectors made from other people's photos (LFW)
+datasets/
+testvec/
+
+# --- models: generated locally (see docs/MODELS.md), some have non-commercial licenses
+models/
+
+# --- tools / build output ---------------------------------------------------
+.venv/
+build/
+third_party/
+__pycache__/
+*.pyc
+assets/tile_preview.png
+brag-output/
+*.mp4
+!assets/winface-explainer.mp4
+
+# installer output
+dist/
+app/WinFace/bin/
+app/WinFace/obj/
+app/WinFaceUpdater/bin/
+app/WinFaceUpdater/obj/
+
+# scratch scripts
+scratch/
+.vs/
+*.user
+
+*.obj
+*.exe
